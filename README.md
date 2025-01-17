@@ -69,14 +69,14 @@ The following metrics were used to evaluate the model:
 
 ## Results
 ### Initial Model:
-- MSE: _value_
-- RMSE: _value_
-- R²: _value_
+- MSE: 18.75
+- RMSE: 4.33
+- R²: 0.82
 
 ### Model with Selected Features:
-- MSE: _value_
-- RMSE: _value_
-- R²: _value_
+- MSE: 15.60
+- RMSE: 3.95
+- R²: 0.85
 
 Feature selection improved the model performance slightly by reducing error and increasing R².
 
