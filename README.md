@@ -15,7 +15,6 @@ This project involves cleaning and analyzing a car dataset and building a Linear
   - [Feature Selection](#feature-selection)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Results](#results)
-- [How to Run the Project](#how-to-run-the-project)
 
 ## Project Overview
 The primary goal of this project is to preprocess a car dataset, explore it for insights, and build a predictive model using Linear Regression to estimate `MPG` based on other attributes.
@@ -80,21 +79,6 @@ The following metrics were used to evaluate the model:
 
 Feature selection improved the model performance slightly by reducing error and increasing R².
 
-## How to Run the Project
-1. Clone this repository:
-   ```bash
-   git clone <repository_url>
-   ```
-2. Install the required Python libraries:
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn mlxtend
-   ```
-3. Place the `car.csv` file in the project directory.
-4. Run the script:
-   ```bash
-   python car_analysis.py
-   ```
-5. Check the outputs and visualizations for insights.
 
 ## Future Work
 - Include polynomial or other non-linear models to improve predictions.
